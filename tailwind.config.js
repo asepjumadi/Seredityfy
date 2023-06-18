@@ -6,6 +6,22 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      animation: {
+        vote: 'vote 1s ease-in-out',
+      },
+      keyframes: {
+        vote: {
+          '0%, 100%': {
+            transform: 'translate(0deg)',
+          },
+          '25%': {
+            transform: 'translate(-30deg)',
+          },
+          '75%': {
+            transform: 'translate(30deg)',
+          },
+        },
+      },
       bgGradientDeg: {
         75: '75deg',
       }

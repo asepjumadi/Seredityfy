@@ -3,7 +3,7 @@ import { createBrowserRouter,RouterProvider,Routes,Route } from 'react-router-do
 import { Welcome } from '../page/Welcome';
 import { Contact } from '../page/Contact';
 import { Home } from '../page/Home';
-import { Support } from '../page/Support';
+import { Update } from '../page/Update';
 const router = createBrowserRouter([
     {
       path: "*",
@@ -24,7 +24,7 @@ function Root() {
       <Route path="/" element={<Welcome />} />
       <Route path="/contact/*" element={<Contact />} />
       <Route path="/home/*" element={<Home />} />
-      <Route path="/support/*" element={<Support />} />
+      <Route path="/update/*" element={<Update />} />
     </Routes>
   );
 }

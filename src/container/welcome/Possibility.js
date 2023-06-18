@@ -1,5 +1,5 @@
 import React from 'react'
-import Midjourney5 from '../assets/midjourney60.png'
+import Midjourney5 from '../../assets/midjourney60.png'
 export const Possibility = () => {
   return (
     <div className='flex flex-col md:flex-row items-center

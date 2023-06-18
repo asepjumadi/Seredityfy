@@ -1,10 +1,10 @@
 import React from 'react'
-import Microsoft from '../assets/microsoft.webp'
-import OpenAI from '../assets/openai.jpeg'
-import Image12 from '../assets/image_12.png'
-import Image2 from '../assets/image2.png'
-import Image6 from '../assets/image6.png'
-import Bing from '../assets/bing.png'
+import Microsoft from '../../assets/microsoft.webp'
+import OpenAI from '../../assets/openai.jpeg'
+import Image12 from '../../assets/image_12.png'
+import Image2 from '../../assets/image2.png'
+import Image6 from '../../assets/image6.png'
+import Bing from '../../assets/bing.png'
 export const Partner = () => {
   const [email, setEmail] = React.useState('');
   return (

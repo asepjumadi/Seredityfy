@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../components/Card'
-import Card1 from '../assets/card1.png';
-import Card2 from '../assets/card2.png';
-import Card3 from '../assets/card3.png';
-import PolyIcon from '../assets/PolygonIcons1.png';
-import PolyIcon1 from '../assets/PolygonIcons2.svg';
-import PolyIcon2 from '../assets/PolygonIcons3.svg';
+import Card from '../../components/Card'
+import Card1 from '../../assets/card1.png';
+import Card2 from '../../assets/card2.png';
+import Card3 from '../../assets/card3.png';
+import PolyIcon from '../../assets/PolygonIcons1.png';
+import PolyIcon1 from '../../assets/PolygonIcons2.svg';
+import PolyIcon2 from '../../assets/PolygonIcons3.svg';
 function Obsviewsly() {
   return (
     <div className='bg-fuchsia-900 bg-opacity-20 backdrop-blur-2xl mt-[-6%] border-t-0 border-fuchsia-500'>

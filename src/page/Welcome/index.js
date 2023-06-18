@@ -1,8 +1,8 @@
 import React from 'react'
-import { Seredity } from '../../container/Seredity';
-import Obsviewsly from '../../container/Obsviewsly';
-import { Possibility } from '../../container/Possibility';
-import { Partner } from '../../container/Partner';
+import { Seredity } from '../../container/welcome/Seredity';
+import Obsviewsly from '../../container/welcome/Obsviewsly';
+import { Possibility } from '../../container/welcome/Possibility';
+import { Partner } from '../../container/welcome/Partner';
 import { Footer } from '../../components/Footer';
 export const Welcome = () => {
     return (

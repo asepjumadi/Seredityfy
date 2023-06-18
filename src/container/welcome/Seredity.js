@@ -1,11 +1,11 @@
 import React from 'react'
-import { Navbar } from '../components/Navbar'
-import ai from '../assets/ai.png';
-import Union from '../assets/Union.png';
-import Vector from '../assets/Vector.png';
-import Back from '../assets/back.png';
-import { NotifyComponents } from '../components/NotifyComponents';
-import { data } from '../model/models';
+import { Navbar } from '../../components/Navbar'
+import ai from '../../assets/ai.png';
+import Union from '../../assets/Union.png';
+import Vector from '../../assets/Vector.png';
+import Back from '../../assets/back.png';
+import { NotifyComponents } from '../../components/NotifyComponents';
+import { data } from '../../model/models';
 export const Seredity = () => {
     return (
         <div
@@ -21,7 +21,7 @@ export const Seredity = () => {
                     </div>
                     <h2 className='py-10 leading-[52px] font-extrabold text-transparent text-6xl bg-clip-text  from-fuchsia-500   via-indigo-500  to-purple-300 bg-gradient-30'> Image With
                         Seredityfy</h2>
-                    <p className='text-white text-sm w-5/6'>Discover a vibrant community of creators on Serendipity! Connect with thousands of like-minded individuals on Discord or the web and unleash your imagination through collaborative storytelling. From vivid worlds to unforgettable characters, bring your short text descriptions to life in new and exciting ways. Join Serendipity today and embark on a journey of endless creativity!</p>
+                    <p className='text-white text-sm w-5/6'>Discover a vibrant community of creators on Seredityfy! Connect with thousands of like-minded individuals on Discord or the web and unleash your imagination through collaborative storytelling. From vivid worlds to unforgettable characters, bring your short text descriptions to life in new and exciting ways. Join Serendipity today and embark on a journey of endless creativity!</p>
                     <div className='items-center lg:items-stretch'>
                         <button className='mt-8 flex px-4 py-2 items-center  rounded-md text-white w-3/6 lg:w-2/6  bg-gradient-to-tr from-purple-600  via-purple-800 to-violet-800'>
                         <img src={Vector} className='h-4 w-4 mr-2' alt='vector seredityfy'/> Generate Images
