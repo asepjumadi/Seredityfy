@@ -1,10 +1,8 @@
 import React, { lazy } from 'react'
-// import { Seredity } from '../../container/welcome/Seredity';
-
-import Obsviewsly from '../../container/welcome/Obsviewsly';
 import { Possibility } from '../../container/welcome/Possibility';
 import { Partner } from '../../container/welcome/Partner';
 import { Footer } from '../../components/Footer';
+const Obsviewsly =lazy(()=>lazy('../../container/welcome/Obsviewsly'));
 const Seredity = lazy(()=>import('../../container/welcome/Seredity'));
 export const Welcome = () => {
     return (
