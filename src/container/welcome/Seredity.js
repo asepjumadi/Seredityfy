@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{lazy,Suspense} from 'react'
 import { Navbar } from '../../components/Navbar'
 import ai from '../../assets/ai.png';
 import Union from '../../assets/Union.png';
@@ -6,7 +6,8 @@ import Vector from '../../assets/Vector.png';
 import Back from '../../assets/back.png';
 import { NotifyComponents } from '../../components/NotifyComponents';
 import { data } from '../../model/models';
-export const Seredity = () => {
+
+ const Seredity = () => {
     return (
         <div
             className='bg-cover bg-center h-full'
@@ -45,3 +46,5 @@ export const Seredity = () => {
         </div>
     )
 }
+
+export default Seredity;

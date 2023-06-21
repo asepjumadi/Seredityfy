@@ -2,9 +2,9 @@ import React from 'react'
 import Search from '../assets/search.png'
 function Card({ img, title, sub, content, imgicons }) {
     return (
-        <div className='max-w-xs bg-slate-300 border 
-        border-slate-200 bg-opacity-70 backdrop-blur-md 
-        rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 
+        <div className='max-w-xs  border 
+        border-gray-700  bg-opacity-70 backdrop-blur-md 
+        rounded-lg shadow bg-gray-800 dark:bg-gray-800 dark:border-gray-700 
         justify-center items-center mb-4 md:mb-0'>
             <img src={img} className='w-100 h-54 rounded-t-lg' alt={`seredityfy ${img} ai image generator`}/>
             <a className='absolute right-2 z-10 bottom-[226px] cursor-pointer'><img src={imgicons} className='w-16 h-16' /></a>
