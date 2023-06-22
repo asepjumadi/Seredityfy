@@ -6,7 +6,7 @@ function Card({ img, title, sub, content, imgicons }) {
         border-gray-700  bg-opacity-70 backdrop-blur-md 
         rounded-lg shadow bg-gray-800 dark:bg-gray-800 dark:border-gray-700 
         justify-center items-center mb-4 md:mb-0'>
-            <img src={img} className='w-100 h-54 rounded-t-lg' alt={`seredityfy ${img} ai image generator`}/>
+            <img src={img} className='w-100 h-54 rounded-t-lg' alt="seredityfy ai image generator"/>
             <a className='absolute right-2 z-10 bottom-[226px] cursor-pointer'><img src={imgicons} className='w-16 h-16' /></a>
             <div className='px-6  pb-6 pt-2 inset-y-0 mt-[-30px] bg-slate-700 bg-opacity-30 backdrop-blur-sm' >
                 <h2 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>{title}</h2>
