@@ -6,7 +6,7 @@ import { Footer } from '../../components/Footer'
 const Updates = () => {
   return (
     <div
-      className='bg-cover bg-center h-full'
+      className='bg-cover bg-center h-fit'
       style={{ backgroundImage: `url(${Dragons})` }}
     >
       <Navbar />

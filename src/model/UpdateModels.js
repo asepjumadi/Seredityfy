@@ -26,5 +26,32 @@ export const dataSetUpdates=[
         firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
         secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
         isDetail:false,
-    }
+    },
+     {
+        icons:Button1,
+        title:"Feature",
+        heading:"/DESCRIBE",
+        headingContent:"RELEASE ,APRIL 21 ,2023",
+        firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        isDetail:false,
+    },
+    {
+        icons:Button2,
+        title:"Course",
+        heading:"OPTIMUS WEB DESIG",
+        headingContent:"RELEASE ,APRIL 21 ,2023",
+        firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        isDetail:false,
+    },
+    {
+        icons:Button3,
+        title:"Bug-Fix",
+        heading:"VARIATION",
+        headingContent:"RELEASE ,APRIL 21 ,2023",
+        firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
+        isDetail:false,
+    },
 ]
