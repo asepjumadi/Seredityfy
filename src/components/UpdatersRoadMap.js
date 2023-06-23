@@ -28,6 +28,7 @@ export const UpdatersRoadMap = () => {
                     headingContent={item.headingContent}
                     isDetail={item.isDetail}
                     icons={item.icons}
+                    keys={index}
                   />
 
                 )

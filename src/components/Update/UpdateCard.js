@@ -1,8 +1,8 @@
 import React from 'react'
 
-const UpdateCard = ({ icons, title, heading, headingContent, firstListText, secondListText, isDetail }) => {
+const UpdateCard = ({ icons, title, heading, headingContent, firstListText, secondListText, isDetail,keys }) => {
     return (
-        <div className='mt-4 mr-6 items-center'>
+        <div key={keys} className='mt-4 mr-6 items-center'>
             <div className='py-[0.1px]  lg:mr-6  bg-gradient-to-r from-indigo-600 via-cyan-400 to-indigo-600 h-[0.5px] w-4/6 self-center ml-24' />
             <div className='border-y-[0.1px] border-r-[0.1px] border-slate-500 py-6 items-center bg-blue-950  bg-opacity-30  rounded-lg shadow justify-center  backdrop-blur-3xl'>
                 <div className='flex flex-row w-11/12'>
