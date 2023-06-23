@@ -1,5 +1,5 @@
 import React from 'react'
-import Search from '../assets/search.png'
+import { Search } from '../assets/import'
 function Card({ img, title, sub, content, imgicons }) {
     return (
         <div className='max-w-xs  border 

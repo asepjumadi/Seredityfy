@@ -10,7 +10,7 @@ export const UpdatersRoadMap = () => {
         </div>
       </div>
       <div className='row-span-2 col-span-2 '>
-        02
+        
       </div>
       <div className='row-span-3'>
         <div className='bg-gradient-to-r from-blue-950  to-zinc-900   w-[40%] absolute z-0  right-0 h-screen'>

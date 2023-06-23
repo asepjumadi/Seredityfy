@@ -1,9 +1,7 @@
 import React,{lazy,Suspense} from 'react'
 import { Navbar } from '../../components/Navbar'
-import ai from '../../assets/ai.png';
-import Union from '../../assets/Union.png';
-import Vector from '../../assets/Vector.png';
-import Back from '../../assets/back.png';
+import { AI,Union,Vector,Back } from '../../assets/import';
+
 import { NotifyComponents } from '../../components/NotifyComponents';
 import { data } from '../../model/models';
 
@@ -11,7 +9,7 @@ import { data } from '../../model/models';
     return (
         <div
             className='bg-cover bg-center h-full'
-            style={{ backgroundImage: `url(${ai})` }}
+            style={{ backgroundImage: `url(${AI})` }}
         >
             <Navbar />
             <div className='items-center lg:flex lg:flex-1 justify-between '>

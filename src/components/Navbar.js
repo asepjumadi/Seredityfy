@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/Logo.png';
+import { Logo } from '../assets/import';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 export const Navbar = () => {
     const [toggle, setToggle] = React.useState(false);

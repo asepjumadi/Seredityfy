@@ -1,11 +1,11 @@
 import React from 'react'
-import Midjourney5 from '../../assets/midjourney60.png'
+import { Midjourney60 } from '../../assets/import'
 export const Possibility = () => {
   return (
     <div className='flex flex-col md:flex-row items-center
     md:px-40 md:p-20 bg-orange-600 p-10
     bg-opacity-10 backdrop-blur-3xl'>
-        <img src={Midjourney5} className='w-[200px] h-[200px] xl:w-full xl:h-[460px] rounded-2xl' alt={`${Midjourney5}`}/>
+        <img src={Midjourney60} className='w-[200px] h-[200px] xl:w-full xl:h-[460px] rounded-2xl' alt={`${Midjourney60}`}/>
         <div className='flex flex-col md:p-10 p-4'>
             <p className='mb-4 leading-5 text-transparent text-[11px] bg-clip-text bg-gradient-to-tr from-orange-400 to-fuchsia-500'>Request Early Access to Get Started</p>
             <h1 className='mb-6 leading-8 bg-clip-text bg-gradient-45 from-fuchsia-500 via-purple-600 to-orange-600 text-transparent  text-2xl lg:text-3xl md:w-5/6'>Seredityfy Possibility is the possibilities are beyond your imagination</h1>

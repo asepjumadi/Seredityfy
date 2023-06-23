@@ -6,7 +6,7 @@ const PartnerCard = (props ) => {
     const withleadcss='w-[86px] h-10 rounded-sm m-6 bg-slate-700 align-middle justify-center items-center';
     const withFollowcss='w-16 h-10 rounded-sm m-6 bg-slate-700 align-middle justify-center items-center'
     return (
-        <div className='max-w-xs items-center bg-slate-800 border border-slate-200 bg-opacity-30  rounded-lg shadow  dark:border-gray-700 justify-center  backdrop-blur-3xl '>
+        <div className='max-w-xs items-center bg-blue-950 border border-slate-200 bg-opacity-30  rounded-lg shadow  dark:border-gray-700 justify-center  backdrop-blur-3xl '>
             <div className={props.lead?withleadcss:withFollowcss}>
                 <p className='text-white p-2'>{props.product_title}</p>
             </div>
