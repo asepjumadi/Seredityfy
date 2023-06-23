@@ -17,7 +17,7 @@ export const UpdatersRoadMap = () => {
         <div className='bg-gradient-to-r from-blue-950  to-zinc-900   w-[40%] absolute z-0  right-0 h-fit'>
           <div className=' pl-10 pt-20'>
             <h1 className='text-white text-3xl mb-10'>Updates</h1>
-            <p className='text-white text-sm w-[500px]'>Stay up-to-date with the latest features released on Serendityfy. Our most recent updates are now live, offering you a wide range of new features and enhancements that will enhance your experience. From sleek design changes to powerful new tools, we are continuously working to make our platform even better for you. Discover the latest updates today and take your experience to the next level!</p>
+            <p className='text-white text-sm w-[450px]'>Stay up-to-date with the latest features released on Serendityfy. Our most recent updates are now live, offering you a wide range of new features and enhancements that will enhance your experience. From sleek design changes to powerful new tools, we are continuously working to make our platform even better for you. Discover the latest updates today and take your experience to the next level!</p>
             {
               dataSetUpdates.map((item, index) => {
                 return (
