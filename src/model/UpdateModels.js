@@ -11,8 +11,8 @@ export const dataSetUpdates=[
     },
     {
         icons:Button2,
-        title:"Feature",
-        heading:"/DESCRIBE",
+        title:"Course",
+        heading:"OPTIMUS WEB DESIG",
         headingContent:"RELEASE ,APRIL 21 ,2023",
         firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
         secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
@@ -20,8 +20,8 @@ export const dataSetUpdates=[
     },
     {
         icons:Button3,
-        title:"Feature",
-        heading:"/DESCRIBE",
+        title:"Bug-Fix",
+        heading:"VARIATION",
         headingContent:"RELEASE ,APRIL 21 ,2023",
         firstListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
         secondListText:"We have added an NSFW image filter detector that works similarly to the image prompt filter.",
