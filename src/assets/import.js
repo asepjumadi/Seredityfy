@@ -27,6 +27,7 @@ import Search from './search.png';
 import Button1 from './Button1.png';
 import Button2 from './Button2.png';
 import Button3 from './Button3.png';
+import IconsAuthor from './iconAuthors.png'
 
 export {
     AI,
@@ -58,4 +59,5 @@ export {
     Button1,
     Button2,
     Button3,
+    IconsAuthor,
 }
