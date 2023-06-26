@@ -2,11 +2,14 @@ import React from 'react'
 import { Logo } from '../assets/import';
 import { useNavigate } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+
+
 export const Navbar = () => {
     const navigate = useNavigate();
     const [toggle, setToggle] = React.useState(false);
     const handleClickRegister=()=>{
-            navigate('/signup')
+            navigate('/signup');
+            navigate(0)
     }
     return (
         <nav className="bg-gray-800 bg-opacity-20 backdrop-blur-lg py-5">
