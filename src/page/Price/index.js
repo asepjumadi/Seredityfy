@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Navbar } from '../../components/Navbar'
 import { PriceApp } from '../../container/Price'
 import { Footer } from '../../components/Footer'
+import { Loader } from '../../components/Loader'
+
 export const Price = () => {
 
   return (
-    <div className='bg-blue-950 w-full h-fit'>
-      <Navbar/>
-      <PriceApp/>
-      <Footer/>
+    <div className='dark:bg-gradient-to-r bg-gradient-75 from-slate-950 via-purple-950 to-blue-950 w-full h-fit'>
+      <Suspense fallback={<Loader/>}>
+        <Navbar />
+        <PriceApp />
+        <Footer />
+      </Suspense>
     </div>
   )
 }

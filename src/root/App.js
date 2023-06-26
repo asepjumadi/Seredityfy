@@ -4,6 +4,7 @@ import { Welcome } from '../page/Welcome';
 import { Contact } from '../page/Contact';
 import { Update } from '../page/Update';
 import { Price } from '../page/Price';
+import Register from '../page/Register';
 const router = createBrowserRouter([
     {
       path: "*",
@@ -25,6 +26,7 @@ function Root() {
       <Route path="/contact/*" element={<Contact />} />
       <Route path="/price/*" element={<Price />} />
       <Route path="/update/*" element={<Update />} />
+      <Route path="/signup/*" element={<Register />} />
     </Routes>
   );
 }

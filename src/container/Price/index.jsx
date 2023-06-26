@@ -2,7 +2,7 @@ import React from 'react'
 
 export const PriceApp = () => {
   return (
-    <section className="bg-white dark:bg-gray-950">
+    <section className="bg-white dark:bg-gradient-to-r  from-slate-950 via-indigo-950 to-blue-950">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
