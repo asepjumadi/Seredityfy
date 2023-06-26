@@ -3,7 +3,7 @@ import { Logo } from '../../assets/import'
 
 const SignUP = () => {
   return (
-    <section class="bg-gray-50 dark:bg-gradient-to-br bg-gradient-75 from-slate-950 via-fuchsia-950 to-blue-950">
+    <section class="bg-gray-50 dark:bg-gradient-to-br bg-gradient-75 from-slate-950 via-indigo-950 to-blue-950">
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
       <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
           <img class="w-8 h-8 mr-2" src={Logo} alt="logo"/>
