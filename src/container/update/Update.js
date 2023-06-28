@@ -10,7 +10,7 @@ const Updates = () => {
         className='flex flex-col flex-1 bg-cover bg-center h-fit'
         style={{ backgroundImage: `url(${Dragons})` }}
       >
-        <Navbar />
+        <Navbar type={'update'}/>
         <UpdatersRoadMap />
       </div>
     </div>

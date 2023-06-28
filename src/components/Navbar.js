@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 
 
-export const Navbar = () => {
+export const Navbar = ({type=''}) => {
     const navigate = useNavigate();
     const [toggle, setToggle] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
@@ -39,9 +39,9 @@ export const Navbar = () => {
                     <div className='block md:hidden'>
                         {
                             toggle ?
-                                <RiCloseLine color={`${isScrolled?'white':'black'}`} size={27} onClick={() => setToggle(false)} />
+                                <RiCloseLine color={`${isScrolled?'white':type=='update'?'grey':'black'}`} size={27} onClick={() => setToggle(false)} />
                                 :
-                                <RiMenu3Line color={`${isScrolled?'white':'black'}`} size={27} onClick={() => setToggle(true)} />
+                                <RiMenu3Line color={`${isScrolled?'white':type=='update'?'grey':'black'}`} size={27} onClick={() => setToggle(true)} />
                         }
                     </div>
                     <div className="hidden md:block  ">

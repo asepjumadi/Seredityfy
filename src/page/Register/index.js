@@ -6,7 +6,7 @@ import SignUP from '../../container/SIignUP'
 const Register = () => {
   return (
     <div className='bg-white dark:bg-gradient-to-br bg-gradient-75 from-slate-950 via-purple-950 to-blue-950'>
-        <Navbar/>
+        <Navbar type='update'/>
         <SignUP/>
         <Footer/>
     </div>

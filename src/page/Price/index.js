@@ -9,7 +9,7 @@ export const Price = () => {
   return (
     <div className='dark:bg-gradient-to-r bg-gradient-75 from-slate-950 via-purple-950 to-blue-950 w-full h-fit'>
       <Suspense fallback={<Loader/>}>
-        <Navbar />
+        <Navbar type='update' />
         <PriceApp />
         <Footer />
       </Suspense>
