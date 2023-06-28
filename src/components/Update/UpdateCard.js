@@ -3,11 +3,11 @@ import { Back } from '../../assets/import'
 import { dataSetUpdates } from '../../model/UpdateModels'
 const UpdateCard = ({ icons, title, heading, headingContent, firstListText, secondListText, isDetail,keys,headerDetail,ContentDetail,iconsContent,Authoricons }) => {
     return (
-        <div key={keys} className='mt-4 mr-6 items-center'>
-            <div className='h-[0.2px]  lg:mr-6  bg-gradient-to-r from-indigo-600 via-cyan-400 to-indigo-600  w-4/6 self-center ml-24' />
+        <div key={keys} className='mt-4 mr-2 md:mr-6 items-center'>
+            <div className='h-[0.2px] lg:mr-6  bg-gradient-to-r from-indigo-600 via-cyan-400 to-indigo-600  w-4/6 self-center ml-24' />
             <div className='py-6 items-center bg-blue-950  bg-opacity-30  rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] justify-center  backdrop-blur-3xl'>
                 <div className='flex flex-row w-11/12'>
-                    <div className='flex flex-col items-center mr-10'>
+                    <div className='flex flex-col items-center mr-2 md:mr-10'>
                         <div>
                             <img src={icons} className='w-30 h-30 ' alt="safe partice button" />
                         </div>
@@ -16,8 +16,8 @@ const UpdateCard = ({ icons, title, heading, headingContent, firstListText, seco
                         }
                     </div>
                     <div className='w-full'>
-                        <h1 className='text-white text-lg leading-4 font-bold my-4'>{title}</h1>
-                        <h5 className='text-blue-300 text-sm my-2 '>{heading} <span className='text-slate-400 text-sm '>{headingContent}</span></h5>
+                        <h1 className='text-white text-sm md:text-lg leading-4 font-bold my-4'>{title}</h1>
+                        <h5 className='text-blue-300 text-xs md:text-sm my-2 '>{heading} <span className='text-slate-400 text-sm '>{headingContent}</span></h5>
                         <ul className='list-disc ml-4 mb-4'>
                             <li className='text-gray-400 text-xs'>{firstListText}</li>
                             <li className='text-gray-400 text-xs '>{secondListText}</li>

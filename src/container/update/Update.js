@@ -5,13 +5,14 @@ import { UpdatersRoadMap } from '../../components/UpdatersRoadMap'
 import { Footer } from '../../components/Footer'
 const Updates = () => {
   return (
-    <div
-      className='bg-cover bg-center h-full'
-      style={{ backgroundImage: `url(${Dragons})` }}
-    >
-      <Navbar />
-      <UpdatersRoadMap />
-      <Footer />
+    <div className='bg-blue-950 flex flex-1 flex-col h-fit'>
+      <div
+        className='flex flex-col flex-1 bg-cover bg-center h-fit'
+        style={{ backgroundImage: `url(${Dragons})` }}
+      >
+        <Navbar />
+        <UpdatersRoadMap />
+      </div>
     </div>
   )
 }

@@ -39,9 +39,9 @@ export const Navbar = () => {
                     <div className='block md:hidden'>
                         {
                             toggle ?
-                                <RiCloseLine color='black' size={27} onClick={() => setToggle(false)} />
+                                <RiCloseLine color={`${isScrolled?'white':'black'}`} size={27} onClick={() => setToggle(false)} />
                                 :
-                                <RiMenu3Line color='black' size={27} onClick={() => setToggle(true)} />
+                                <RiMenu3Line color={`${isScrolled?'white':'black'}`} size={27} onClick={() => setToggle(true)} />
                         }
                     </div>
                     <div className="hidden md:block  ">
@@ -68,7 +68,7 @@ export const Navbar = () => {
                         <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white py-4 rounded-md text-xl font-bold tracking-widest">Home</a>
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white py-4 rounded-md text-xl font-bold tracking-widest">Features</a>
                         <a href="/update" className="text-gray-300 hover:bg-gray-700 hover:text-white py-4 rounded-md text-xl font-bold tracking-widest">Update</a>
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white py-4 rounded-md text-xl font-bold tracking-widest">Price</a>
+                        <a href="/price" className="text-gray-300 hover:bg-gray-700 hover:text-white py-4 rounded-md text-xl font-bold tracking-widest">Price</a>
                         <div className="p-0.5 rounded w-[121.5px] bg-gradient-to-r from-fuchsia-600 via-fuchsia-500 to-fuchsia-500">
                             <button className="px-6 py-2 text-white bg-gray-800 bg-opacity-90 backdrop-blur-xl text-xl" onClick={() => handleClickRegister()}>Sign Up</button>
                         </div>
