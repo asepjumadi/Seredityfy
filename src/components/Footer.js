@@ -2,7 +2,7 @@ import React from 'react'
 import { Logo } from '../assets/import'
 export const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-950 z-50 relative">
+    <footer className="bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-950 z-50 relative">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -10,8 +10,8 @@ export const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                  <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Resources</h2>
+                  <ul className="text-gray-400 dark:text-gray-400 font-medium">
                       <li className="mb-4">
                           <a href="https://www.figma.com/community/file/1241020191420889535" className="hover:underline">Figma</a>
                       </li>
@@ -21,19 +21,19 @@ export const Footer = () => {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                  <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Follow us</h2>
+                  <ul className="text-gray-400 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                          <a href="https://github.com/themesberg/flowbite" className="hover:underline text-gray-300 ">Github</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                          <a href="https://discord.gg/4eeurUVvTy" className="hover:underline text-gray-300">Discord</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                  <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase dark:text-white">Legal</h2>
+                  <ul className="text-gray-400 dark:text-gray-400 font-medium">
                       <li className="mb-4">
                           <a href="#" className="hover:underline">Privacy Policy</a>
                       </li>
