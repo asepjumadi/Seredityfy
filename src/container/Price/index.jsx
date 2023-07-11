@@ -45,10 +45,10 @@ export const PriceApp = () => {
                       <span>Free updates: <span className="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-gradient-to-tr from-slate-600  from-0% via-slate-800 to-slate-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           {/* <!-- Pricing Card --> */}
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex bg-green-300 flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-green-950 dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Company</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
               <div className="flex justify-center items-baseline my-8">
@@ -83,7 +83,7 @@ export const PriceApp = () => {
                       <span>Free updates: <span className="font-semibold">24 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-gradient-to-tr from-green-600  from-0% via-green-800 to-green-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
           {/* <!-- Pricing Card --> */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -121,7 +121,7 @@ export const PriceApp = () => {
                       <span>Free updates: <span className="font-semibold">36 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-gradient-to-tr from-slate-600  from-0% via-slate-800 to-slate-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
           </div>
       </div>
   </div>
