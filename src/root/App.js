@@ -1,10 +1,10 @@
 import React from 'react'
 import { createBrowserRouter,RouterProvider,Routes,Route } from 'react-router-dom'
 import { Welcome } from '../page/Welcome';
-import { Contact } from '../page/Contact';
 import { Update } from '../page/Update';
 import { Price } from '../page/Price';
 import Register from '../page/Register';
+import { Features } from '../page/Features';
 const router = createBrowserRouter([
     {
       path: "*",
@@ -23,7 +23,7 @@ function Root() {
   return (
     <Routes>
       <Route path="/" element={<Welcome />} />
-      <Route path="/contact/*" element={<Contact />} />
+      <Route path="/features/*" element={<Features />} />
       <Route path="/price/*" element={<Price />} />
       <Route path="/update/*" element={<Update />} />
       <Route path="/signup/*" element={<Register />} />
