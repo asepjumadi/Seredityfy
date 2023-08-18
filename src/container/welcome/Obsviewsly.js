@@ -4,6 +4,9 @@ import { Card1, Card2, Card3, PolygonIcons, PolygonIcons2, PolygonIcons3 } from 
 function Obsviewsly() {
   return (
     <div className='bg-fuchsia-900 bg-opacity-20 backdrop-blur-2xl mt-[-6%] border-t-0 border-fuchsia-500'>
+      <div className='px-20 pt-6'>
+        <h1 className='text-white text-3xl font-semibold'><strong>Features</strong> News</h1>
+      </div>
       <div className='flex top-20 
        flex-col xl:flex-row sm:flex-col lg:flex-row 2xl:flex-row
        py-8 sm:py-20 md:py-8 lg:py-12 xl:py-16 2xl:py-20
