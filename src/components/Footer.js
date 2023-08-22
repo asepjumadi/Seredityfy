@@ -2,7 +2,7 @@ import React from 'react'
 import { Logo } from '../assets/import'
 export const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-950 z-50 relative">
+    <footer className="bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-950 xs:z-0 xl:z-50 relative">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
