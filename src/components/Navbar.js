@@ -25,6 +25,12 @@ export const Navbar = ({ type = '' }) => {
         navigate('/signup');
         navigate(0)
     }
+    const handleScoll=(type)=>{
+        if(isScrolled){
+            return 'white'
+        }
+        return type == 'update' ? 'grey' : 'black'
+    }
     return (
         <nav
             className={`${isScrolled ? 'bg-slate-900' : 'bg-gray-800 bg-opacity-20 backdrop-blur-lg'} py-5 ${isScrolled ? 'fixed top-0' : ''} w-full z-50 transition duration-500 ease-in-out ${isScrolled ? 'scrolled' : ''
@@ -33,14 +39,14 @@ export const Navbar = ({ type = '' }) => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 mx-auto">
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-white font-bold text-xl justify-between flex"> <img src={Logo} className='w-6 h-6 mr-4' alt={`${Logo} seredityfy `} /> <span>Seredityfy </span></a>
+                        <a href="#" className="text-white font-bold text-xl justify-between flex"> <img src={Logo} className='w-6 h-6 mr-4' alt={`${Logo} seredityfy `} /> <span>Seredityfy</span></a>
                     </div>
                     <div className='block md:hidden'>
                         {
                             toggle ?
-                                <RiCloseLine color={`${isScrolled ? 'white' : type == 'update' ? 'grey' : 'black'}`} size={27} onClick={() => setToggle(false)} />
+                                <RiCloseLine color={`${handleScoll(type)}`} size={27} onClick={() => setToggle(false)} />
                                 :
-                                <RiMenu3Line color={`${isScrolled ? 'white' : type == 'update' ? 'grey' : 'black'}`} size={27} onClick={() => setToggle(true)} />
+                                <RiMenu3Line color={`${handleScoll(type)}`} size={27} onClick={() => setToggle(true)} />
                         }
                     </div>
                     <div className="hidden md:block  ">
@@ -58,7 +64,7 @@ export const Navbar = ({ type = '' }) => {
                 </div>
             </div>
             {
-                toggle && <div className='pt-2 px-2 pb-96 absolute top-0 right-0 bg-black xs:z-40 w-screen h-fit items-center mx-auto transform after:translate-y-4 before::translate-y-6
+                toggle && <div className='pt-2 px-2 pb-[1000px] absolute top-0 right-0 bg-black xs:z-40 w-screen h-fit  items-center mx-auto transform after:translate-y-4 before::translate-y-6
                 transition duration-500 ease-in-out'>
                     <div className='flex flex-row justify-between items-center gap-8 p-2'>
                         <a className='p-2  rounded-md  cursor-pointer'>
