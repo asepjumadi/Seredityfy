@@ -27,12 +27,12 @@ import { data } from '../../model/models';
                         </button>
                     </div>
                 </div>
-                <div className='flex flex-col items-center  lg:items-stretch py-10 lg:py-0 lg:mx-20 mt-[2px] lg:w-3/12 lg:h-[540px] lg:mb-[100px]  XS:z-10 bg-orange-600 bg-opacity-10 backdrop-blur-md shadow-sm shadow-white  '>
+                <div className='flex flex-col items-center  lg:items-stretch py-10 lg:py-0 lg:mx-20 mt-[2px] lg:w-3/12 lg:h-[540px] lg:mb-[100px]  xs:z-0 bg-orange-600 bg-opacity-10 backdrop-blur-md shadow-sm shadow-white  '>
                     <h2 className='text-white text-[20px] py-4 lg:py-6 lg:px-10  lg:text-[24px]'>Updates</h2>
                     {
                         data.map((item, index) => {
                             return (
-                                <NotifyComponents  keys={index} titleContent={item.title} img={item.image} dateContent={item.date} />
+                                <NotifyComponents  key={index} titleContent={item.title} img={item.image} dateContent={item.date} />
                             )
                         })
                     }
