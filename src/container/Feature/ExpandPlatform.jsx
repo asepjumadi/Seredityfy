@@ -3,7 +3,7 @@ import { dataPlatform } from '../../model/dummyFeatures'
 
 export const ExpandPlatform = () => {
     return (
-        <div className='flex flex-col backdrop-blur-xl bg-opacity-70 w-full h-screen  pt-20'>
+        <div className='flex flex-col backdrop-blur-xl bg-opacity-70 w-full h-screen  pt-10'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-white font-extrabold text-3xl tracking-wider'>Platform Support</h1>
             </div>

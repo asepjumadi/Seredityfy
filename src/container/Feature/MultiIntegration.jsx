@@ -2,7 +2,7 @@ import React from 'react'
 
 export const MultiIntegration = () => {
   return (
-    <div className="flex flex-col items-center  bg-contain h-screen py-10 w-screen bg-no-repeat bg-[url('/src/assets/zenai.jpg')]">
+    <div className="flex flex-col mb-20 items-center  bg-contain h-screen py-10 w-screen bg-no-repeat bg-[url('/src/assets/zenai.jpg')]">
       <h1 className='text-white font-extrabold text-3xl tracking-wider'>Framework Integration</h1>
       <p className='text-white text-2xl font-bold tracking-wide'>Multi connecting line rule of machine</p>
       <div className="container mx-auto">
