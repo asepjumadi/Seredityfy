@@ -10,7 +10,7 @@ export const MultiIntegration = () => {
           <div className="w-full  rounded">
             <div className=' bg-slate-900 opacity-90 flex-row flex p-2'>
               <div className='flex flex-col gap-2 w-3/5'>
-                <h1 className='text-white'>SfyReact & SfyNative is AI-Powered Image Generation for React and React Native</h1>
+                <h1 className='text-white font-medium'><strong><em>SFY-React & SFY-Native</em></strong> is AI-Powered Image Generation for React and React Native</h1>
                 <p className='text-white font-extralight text-sm text-justify'>SfyReact & SfyNative designed to seamlessly integrate AI-powered image generation exclusively for React and React Native applications. Immerse yourself in the fusion of AI and web/mobile development as Sereditify transforms your creative process within the React ecosystem.
                 </p>
               </div>
@@ -24,7 +24,7 @@ export const MultiIntegration = () => {
             <div className='h-fit w-full -z-10 bg-slate-900 opacity-90 flex-row flex p-2'
             >
               <div className='flex flex-col gap-2 z-20 h-fit w-full'>
-                <h1 className='text-white'>SFY-DROID: AI-Driven Image Generation for Android Kotlin and Flutter SDKs</h1>
+                <h1 className='text-white'><strong><em>SFY-DROID:</em></strong> AI-Driven Image Generation for Android Kotlin and Flutter SDKs</h1>
                 <p className='text-white font-extralight text-xs text-justify'>Elevate your development projects to new heights with Sereditify a revolutionary framework designed to seamlessly integrate AI-powered image generation into React, React Native, Android Kotlin, and Flutter applications. Witness the magic of AI as it creates stunning visuals in real-time, enriching user experiences across mobile and web platforms.
                 </p>
               </div>
@@ -38,7 +38,7 @@ export const MultiIntegration = () => {
             <div className='bg-slate-900  opacity-90 flex-row flex p-2'
             >
               <div className='flex flex-col gap-2 w-3/5'>
-                <h1 className='text-white'>SfyUI is AI-Powered Image Generation for iOS and SwiftUI Xcode SDK</h1>
+                <h1 className='text-white'><strong><em>SFY-UI:</em></strong> is AI-Powered Image Generation for iOS and SwiftUI Xcode SDK</h1>
                 <p className='text-white font-extralight text-sm text-justify'>SfyUISY is a framework that effortlessly integrates AI-driven image generation into a variety of platforms including now iOS SwiftUI. Experience the enchantment of AI as it crafts captivating visuals in real-time, transforming user interactions on mobile enhance developing speed 
                 </p>
               </div>
@@ -52,8 +52,8 @@ export const MultiIntegration = () => {
             <div className='h-fit w-full bg-slate-900  opacity-90 flex-row flex p-2'
             >
               <div className='flex-none w-52 h-20 flex-col gap-2'>
-                <h1 className='text-white'>SFY-UNIT Revolutionizing AI-Powered Image Generation for Unity SDK</h1>
-                <p className='text-white font-extralight text-sm text-left mt-4'>Introducing Sereditify, the pioneering framework that seamlessly marries AI-powered image generation with environment manipulation, tailored specifically for Unity SDK. Unleash the potential of AI and create captivating visuals that interact dynamically with the environment, all within the Unity development environment.
+                <h1 className='text-white'><strong><em>SFY-UNIT:</em></strong> Revolutionizing AI-Powered Image Generation for Unity SDK</h1>
+                <p className='text-white font-extralight text-sm text-justify mt-4'>Introducing Sereditify, the pioneering framework that seamlessly marries AI-powered image generation with environment manipulation, tailored specifically for Unity SDK. Unleash the potential of AI and create captivating visuals that interact dynamically with the environment, all within the Unity development environment.
                 </p>
               </div>
               <div className='py-4 px-2 shrink'>
@@ -66,8 +66,8 @@ export const MultiIntegration = () => {
             <div className='h-fit w-full bg-slate-900 opacity-90 flex-row flex p-2'
             >
               <div className='flex-none flex-col gap-2 p-2 w-48 h-40'>
-                <h1 className='text-white'>SFY-Real: Bridging AI-Powered Image Generation with Unreal Engine SDK</h1>
-                <p className='text-white font-extralight text-sm'>Step into a new era of creative innovation with Sereditify—an advanced framework meticulously designed to seamlessly blend AI-powered image generation with the Unreal Engine SDK. Immerse yourself in the convergence of AI and game development as Sereditify reshapes how you craft immersive experiences within Unreal Engine.
+                <h1 className='text-white'><strong><em>SFY-Real:</em></strong> Bridging AI-Powered Image Generation with Unreal Engine SDK</h1>
+                <p className='text-white font-extralight text-sm text-justify'>Step into a new era of creative innovation with Sereditify—an advanced framework meticulously designed to seamlessly blend AI-powered image generation with the Unreal Engine SDK. Immerse yourself in the convergence of AI and game development as Sereditify reshapes how you craft immersive experiences within Unreal Engine.
                 </p>
               </div>
               <div className='py-4 px-4 shrink'>
@@ -80,8 +80,8 @@ export const MultiIntegration = () => {
             <div className='h-full w-full   inset-0 bg-slate-900 opacity-90 flex-row flex p-2'
             >
               <div className='flex flex-col gap-2 w-3/5'>
-                <h1 className='text-white'>SFY-3D is AI-Infused Image Generation within the Blender 3D Plugin SDK</h1>
-                <p className='text-white font-extralight text-sm'> 3D content creation with SFY-3D  seamlessly integrates AI-driven image generation into the Blender 3D Plugin SDK. Experience the synergy of AI and 3D design as Sereditify transforms your creative process within the Blender environment.
+                <h1 className='text-white'><strong><em>SFY-3D:</em></strong> AI-Infused Image Generation within the Blender 3D Plugin SDK</h1>
+                <p className='text-white font-extralight text-sm text-justify'> 3D content creation with SFY-3D  seamlessly integrates AI-driven image generation into the Blender 3D Plugin SDK. Experience the synergy of AI and 3D design as Sereditify transforms your creative process within the Blender environment.
                 </p>
               </div>
               <div className='py-4 px-4'>
