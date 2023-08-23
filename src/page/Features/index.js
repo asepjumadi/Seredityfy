@@ -6,10 +6,10 @@ import { MultiIntegration } from '../../container/Feature/MultiIntegration'
 
 export const Features = () => {
     return (
-        <div className=' bg-gradient-to-r ml-0 from-black via-emerald-950  to-black h-fit'>
+        <div className='flex-1 bg-gradient-to-r ml-0 in from-black via-emerald-950  to-black max-h-full h-full'>
             <Navbar type='update'/>
             <MultiIntegration/>
-            <ExpandPlatform />
+             <ExpandPlatform /> 
             <Footer/>
         </div>
     )
